@@ -67,7 +67,7 @@ console.log(products)
                 />
             </Route>
             <Route exact path="/checkout">
-                <Checkout />
+                <Checkout cart={cart}/>
             </Route>
         </Switch>
     </div>
